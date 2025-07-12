@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My AI Chatbot Website</title>
+</head>
+<body>
+  <h1>Welcome to My AI Chatbot Website</h1>
+  <p>Talk to my bot below 👇</p>
+
+  <!-- Botpress Chatbot Embed Code -->
+  <script src="https://cdn.botpress.cloud/webchat/v0/inject.js"></script>
+  <script>
+    window.botpressWebChat.init({
+      host: "http://localhost:3000",  // Change this to your public bot URL if deployed online
+      botId: "myfirstbot"             // Replace with your actual bot ID
+    });
+  </script>
+</body>
+</html>
